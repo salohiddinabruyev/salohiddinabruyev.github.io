@@ -1,0 +1,167 @@
+@import "fonts/fonts.css";
+
+:root {
+    --myFont: Helvetica;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--myFont);
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container {
+    width: 979px;
+    height: 701px;
+    border-radius: 15px;
+    background: #181818;
+    display: flex;
+    overflow: hidden;
+}
+.login {
+    width: calc(979px - 452px);
+    text-align: center;
+    padding-top: 142px;
+}
+.login .title {
+    color: #fff;
+    font-family: var(--myFont);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.login .social {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+.login .social a:nth-child(2) {
+    margin: 0 11px;
+}
+.login .social a img {
+    transition: all 0.3s;
+}
+.login .social a:hover img {
+    transform: scale(1.2) rotate(-20deg);
+}
+.login .caption {
+    color: #fff;
+    font-family: var(--myFont);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+.login form {
+    width: 328px;
+    margin: 0 auto;
+    flex-shrink: 0;
+    display: flex;
+    flex-direction: column;
+}
+.login form input {
+    width: 328px;
+    height: 53px;
+    flex-shrink: 0;
+    background: transparent;
+    border-radius: 26.5px;
+    border: 1px solid #e1bb97;
+    color: #fff;
+    outline: none;
+    padding-left: 44px;
+}
+.login form input[type="email"] {
+    background: url("img/mail.svg") no-repeat;
+    background-position: 19px 17px;
+}
+.login form input[type="password"] {
+    background: url("img/lock.svg") no-repeat;
+    background-position: 19px 17px;
+    margin: 30px auto 20px;
+}
+.login form button {
+    width: 328px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 26.5px;
+    border: 2px solid #e1bb97;
+    background: #e1bb97;
+    color: #fff;
+    text-align: center;
+    font-family: var(--myFont);
+    cursor: pointer;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 15px;
+    transition: all 0.3s linear;
+}
+.login form button:hover {
+    background-color: #fff;
+    color: #000;
+}
+.login .forgot {
+    color: #fff;
+    font-family: var(--myFont);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-decoration-line: underline;
+}
+.register {
+    width: 452px;
+    height: 100%;
+    background: linear-gradient(180deg, #00000080, #00000080),
+        url("img/bg-img.png") no-repeat center/cover;
+    text-align: center;
+    padding-top: 265px;
+}
+.register .title {
+    color: #fff;
+    font-family: var(--myFont);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.register .desc {
+    width: 278px;
+    margin: 20px auto 30px;
+    color: #e1bb97;
+    text-align: center;
+    font-family: var(--myFont);
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.register .btn {
+    width: 328px;
+    height: 53px;
+    flex-shrink: 0;
+    color: #fff;
+    text-align: center;
+    font-family: var(--myFont);
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    background: transparent;
+    border-radius: 26.5px;
+    border: 1px solid #e1bb97;
+    cursor: pointer;
+}
