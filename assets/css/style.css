@@ -162,6 +162,7 @@ header {
 section.features {
     max-width: 1400px;
     height: 522px;
+    margin: 0 auto;
 }
 
 .features-box {
@@ -225,6 +226,7 @@ section.features {
     max-width: 1400px;
     height: 501px;
     padding-top: 95px;
+    margin: 0 auto;
 }
 
 .cta-box {
