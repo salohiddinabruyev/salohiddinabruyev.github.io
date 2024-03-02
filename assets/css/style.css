@@ -41,7 +41,9 @@ header {
     margin: 0 auto;
 }
 
+
 /* default style end */
+
 
 /* navbar start */
 
@@ -88,7 +90,9 @@ header {
     font-feature-settings: "clig" off, "liga" off;
 }
 
+
 /* navbar end */
+
 
 /* section.hero start */
 
@@ -102,7 +106,7 @@ header {
     padding-top: 135px;
 }
 
-.hero-box > h1 {
+.hero-box>h1 {
     width: 344px;
 }
 
@@ -149,7 +153,9 @@ header {
     font: var(--descFont);
 }
 
+
 /* section.hero end */
+
 
 /* section.features start */
 
@@ -209,7 +215,9 @@ section.features {
     color: var(--primary);
 }
 
+
 /* section.features end */
+
 
 /* cta start */
 
@@ -236,7 +244,7 @@ section.features {
     letter-spacing: 1px;
 }
 
-.cta-box > p {
+.cta-box>p {
     width: 396px;
     text-align: center;
     margin-bottom: 40px;
@@ -285,7 +293,9 @@ section.features {
     letter-spacing: 0.6px;
 }
 
+
 /* cta end */
+
 
 /* testmonials start */
 
@@ -339,5 +349,6 @@ section.features {
     letter-spacing: 2px;
     margin-top: 20px;
 }
+
 
 /* testmonials end */
