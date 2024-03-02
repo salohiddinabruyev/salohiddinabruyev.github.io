@@ -5,6 +5,7 @@
     --primary: #6e38f7;
     --dark: #363940;
     --secondary: #95a1bb;
+    --border-color: #E1E5EE;
     --fontRubik: "Rubik", sans-serif;
     --linkFont: 500 12px/20px var(--fontRubik);
     --titleFont: 500 58px/68px var(--fontRubik);
@@ -354,3 +355,114 @@ section.features {
 
 
 /* testmonials end */
+
+
+/* pricing start */
+
+.pricing {
+    max-width: 1400px;
+    margin: 0 auto;
+    height: 702px;
+}
+
+.pricing-box {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.pricing-box .desc {
+    margin: 20px 0 40px;
+}
+
+.pricing-box .cards {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pricing-box .cards .card-active {
+    border: 1px solid var(--primary);
+}
+
+.pricing-box .card .popular {
+    width: 90px;
+    height: 28px;
+    position: absolute;
+    top: -14px;
+    left: 20px;
+    background-color: var(--primary);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    font: var(--linkFont);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.pricing-box .card {
+    position: relative;
+    width: 300px;
+    height: 377px;
+    border: 1px solid var(--border-color);
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    padding: 40px 47px;
+}
+
+.pricing-box .card .card-title {
+    font: var(--colTitle);
+    color: var(--dark);
+}
+
+.pricing-box .card .free {
+    color: var(--border-color) !important;
+}
+
+.pricing-box .card .card-price {
+    font: var(--defaultTitle);
+    color: var(--dark);
+    margin: 30px auto 10px;
+}
+
+.pricing-box .card .card-f {
+    font: var(--descFont);
+    font-size: 16px !important;
+    margin: 20px auto;
+}
+
+.pricing-box .card .card-btn {
+    margin-top: 10px;
+    border: 1px solid var(--primary);
+    font: var(--linkFont) !important;
+    text-transform: uppercase;
+    padding: 8px 23px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    letter-spacing: 2px;
+    color: var(--primary);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.pricing-box .card .card-btn:hover {
+    color: #fff;
+    background: var(--primary);
+}
+
+
+/* pricing end */
