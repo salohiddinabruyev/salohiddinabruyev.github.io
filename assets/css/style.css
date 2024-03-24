@@ -536,13 +536,17 @@ section.features {
     z-index: 10;
 }
 
+.demo-btn:hover {
+    box-shadow: 0 0 17px 2px rgba(73, 245, 21, 0.692);
+}
+
 .portfolio-box .p-row .p-col::before {
     content: "";
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0);
+    background-color: rgba(0, 0, 0, 0);
     position: absolute;
-    top: 0;
+    top: -100%;
     left: 0;
     z-index: 9;
     transition: all 0.3s;
@@ -554,6 +558,8 @@ section.features {
 
 .portfolio-box .p-row .p-col:hover::before {
     background: rgba(0, 0, 0, 0.5);
+    top: 0;
+    backdrop-filter: blur(5px);
 }
 
 .portfolio-box .p-row .p-col:hover .demo-btn {
